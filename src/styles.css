@@ -1,0 +1,39 @@
+
+* {
+  font-size: 14px;
+  font-family: Arial;
+  background-color: #FAF9F9;
+}
+
+li{
+  list-style-type: none; 
+}
+
+.liArrowRight:before {
+  content: "\25B6"; 
+  color: white;
+}
+
+.liArrowDown:before {
+  content: "\25BC"; 
+  color: white;
+}
+
+.titleSidebarStyle{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+}
+
+.titleContentStyle{
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.buttonPage {
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
