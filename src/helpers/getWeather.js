@@ -5,12 +5,13 @@ const getWeather = async () => {
     const res = await fetch(url)
     const { daily, timezone } = await res.json()
 
-    const { temperature_2m_max, temperature_2m_min } = daily
+    const { temperature_2m_max, temperature_2m_min, time } = daily
 
     return {
         timezone,
         temperature_2m_max,
-        temperature_2m_min
+        temperature_2m_min,
+        time
     }
 }
 
