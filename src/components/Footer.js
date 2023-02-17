@@ -10,24 +10,24 @@ const Footer = () => {
                 {timezone.slice(8)}
             </div>
             <div style={{ background: "#EEEEF1" }}>
-                <div style={{ float: "left", marginLeft: "30px", background: "#EEEEF1" }}>
-                    <p style={{ background: "#EEEEF1", fontWeight: "bold" }}>Próximos días</p>
+                <div className="footerColumn">
+                    <p className="footerColumnsTitle">Próximos días</p>
                     <ul style={{ background: "#EEEEF1" }}>
                         {days.map(day => (
                             <li style={{ background: "#EEEEF1" }}>{day.slice(5)}</li>
                         ))}
                     </ul>
                 </div>
-                <div style={{ float: "left", marginLeft: "30px", background: "#EEEEF1" }}>
-                    <p style={{ background: "#EEEEF1", fontWeight: "bold" }}>Temperaturas máximas</p>
+                <div className="footerColumn">
+                    <p className="footerColumnsTitle">Temperaturas máximas</p>
                     <ul style={{ background: "#EEEEF1" }}>
                         {temperatureMax.map(temperature => (
                             <li style={{ background: "#EEEEF1" }}>{temperature} °C</li>
                         ))}
                     </ul>
                 </div>
-                <div style={{ float: "left", marginLeft: "30px", background: "#EEEEF1" }}>
-                    <p style={{ background: "#EEEEF1", fontWeight: "bold" }}>Temperaturas mínimas</p>
+                <div className="footerColumn">
+                    <p className="footerColumnsTitle">Temperaturas mínimas</p>
                     <ul style={{ background: "#EEEEF1" }}>
                         {temperatureMin.map(temperature => (
                             <li style={{ background: "#EEEEF1" }}>{temperature} °C</li>

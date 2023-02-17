@@ -5,8 +5,8 @@ const Sidebar = () => {
     return (
         <div style={{ float: "left", background: "#272795" }}>
             <div style={{ margin: "10px", background: "#272795" }}>
-                <p style={{ background: "#272795", color: "white" }}>Desarrollado por RAFAM 2021</p>
-                <p style={{ background: "#272795", color: "white" }}>v4.12.3</p>
+                <p className="sidebarParagraphs">Desarrollado por RAFAM 2021</p>
+                <p className="sidebarParagraphs">v4.12.3</p>
             </div>
             <hr style={{ color: "white" }}></hr>
             <div style={{ background: "#272795" }}>
@@ -15,10 +15,10 @@ const Sidebar = () => {
             </div>
             <Navbar />
             <hr style={{ color: "white" }}></hr>
-            <div style={{ background: "#272795", color: "white", height: "150px" }}>
+            <div style={{ background: "#272795", height: "150px" }}>
                 <img src={require("../images/logo.png")} style={{ float: "left", background: "#272795" }} width={40} height={40} alt='logo' />
-                <p style={{ background: "#272795" }}>(0221) 429-4484/4509</p>
-                <p style={{ background: "#272795" }}>pa@es.gov.ar</p>
+                <p className="sidebarParagraphs">(0221) 429-4484/4509</p>
+                <p className="sidebarParagraphs">pa@es.gov.ar</p>
             </div>
         </div>
     )

@@ -26,6 +26,11 @@ li{
   color: white;
 }
 
+.sidebarParagraphs{
+  background: #272795;
+  color: white 
+}
+
 .titleContentStyle{
   font-size: x-large;
   font-weight: bold;
@@ -35,5 +40,16 @@ li{
   color: white;
   border: 0;
   cursor: pointer;
+}
+
+.footerColumn{
+  float: left;
+  margin-left: 30px;
+  background-color: #EEEEF1;
+}
+
+.footerColumnsTitle{
+  background-color: #EEEEF1;
+  font-weight: bold;
 }
 
